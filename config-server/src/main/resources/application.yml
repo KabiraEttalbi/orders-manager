@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/CoderOuma/config-repo.git
+          uri: https://github.com/KabiraEttalbi/microservices-configuration.git
           default-label: main
           search-paths: '{application}'
 

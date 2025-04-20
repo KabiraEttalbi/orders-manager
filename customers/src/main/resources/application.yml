@@ -5,14 +5,15 @@ spring:
   application:
     name: customer
   datasource:
-    username: postgres
-    url: jdbc:postgresql://localhost:5432/customer
-    password: root2024
+    username: root
+    url: jdbc:mysql://localhost:3306/customer
+    password: 0411
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: create-drop
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.MySQLDialect
         format_sql: true
     show-sql: true
