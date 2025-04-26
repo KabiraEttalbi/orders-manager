@@ -1,0 +1,8 @@
+com\example\customers\controller\CustomerController.class
+com\example\customers\repository\CustomerRepository.class
+com\example\customers\CustomerApplication.class
+com\example\customers\model\Customer$CustomerBuilder.class
+com\example\customers\model\Customer.class
+com\example\customers\config\RestTemplateConfig.class
+com\example\customers\config\WebClientConfig.class
+com\example\customers\service\CustomerService.class
