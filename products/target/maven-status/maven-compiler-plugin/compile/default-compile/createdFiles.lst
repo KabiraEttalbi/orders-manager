@@ -1,8 +1,0 @@
-com\example\products\model\Product$ProductBuilder.class
-com\example\products\config\RestTemplateConfig.class
-com\example\products\config\WebClientConfig.class
-com\example\products\ProductApplication.class
-com\example\products\repository\ProductRepository.class
-com\example\products\model\Product.class
-com\example\products\service\ProductService.class
-com\example\products\controller\ProductController.class
