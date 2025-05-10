@@ -32,8 +32,6 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/customer?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: kab0411
-      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka/
-      SPRING_CLOUD_CONFIG_URI: http://config-server:8888
     networks:
       - app-network
     depends_on:
@@ -50,8 +48,6 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/product?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: kab0411
-      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka/
-      SPRING_CLOUD_CONFIG_URI: http://config-server:8888
     networks:
       - app-network
     depends_on:
@@ -68,8 +64,6 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/order?useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: kab0411
-      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:8761/eureka/
-      SPRING_CLOUD_CONFIG_URI: http://config-server:8888
     networks:
       - app-network
     depends_on:
